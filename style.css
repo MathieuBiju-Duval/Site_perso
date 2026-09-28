@@ -1,0 +1,45 @@
+.circle-text {
+  width: 175px;
+  aspect-ratio: 1;
+  background-color: blue;
+  border-radius: 50%;
+  color: white;
+  
+  /* Centers text vertically and horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-weight: bold;
+}
+
+div.presentation {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    overflow:auto;
+}
+.profile-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.test{
+    padding-right: 10%;
+}
+
+div.presentation div {
+  width:33%;  
+  float:middle;
+}
+.links {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    overflow:auto;
+}
+.links>a{
+    padding: 5%;
+}
