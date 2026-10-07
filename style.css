@@ -28,14 +28,13 @@ ul li a {
 ul li a:hover {
   background-color: rgb(247, 160, 0);
 }
-/* -------------- Body -------------------*/
+/* -------------- General -------------------*/
 /* background */
 body{
     margin: 0;
-    background-image: url("./images/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./images/background_repeat.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
 }
 
 .title{
@@ -47,11 +46,20 @@ body{
     font-weight: bolder;
 }
 
-/* alignement et marges 
-.section1{
-    margin-left: 20px;
-    margin-right: 20px;
-}*/
+.section {
+    margin: 75px 10%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+hr {
+  border-color: rgb(247, 160, 0);
+  background-color: rgb(247, 160, 0);
+  height: 2px;
+}
+
+/* -------------- Accueil -------------------*/
 
 .presentation {
     margin: 50px 20%;
@@ -104,6 +112,47 @@ body{
 }
 
 
+/* --------------Parcours-------------------*/
+
+.left_img_big{
+    width: 400px;
+    margin-left: 10%;
+}
+
+.left_img_sml{
+    width: 200px;
+    margin-left: 20%;
+}
+
+.right_txt{
+    width: 1000px;
+    color:white;
+    margin:auto 0px auto 200px;
+    word-wrap: break-word;
+}
+
+
+/* --------------Portfolio-------------------*/
+
+.right_img_big{
+    width: 400px;
+    margin-right: 0%;
+}
+
+.right_img_sml{
+    width: 200px;
+    margin-right: 20%;
+}
+
+.left_txt{
+    width: 1000px;
+    color:white;
+    margin:auto 100px auto 100px;
+    word-wrap: break-word;
+    /*background-color: rgb(247, 160, 0, 0.7);
+    padding: 10px;*/
+}
+
 /* --------------footer -------------------*/
 footer{
     margin-top: 30px;
@@ -131,3 +180,4 @@ footer{
     margin: auto;
     margin-right: 20px;
 }
+
