@@ -44,6 +44,11 @@ main{
     flex: 1;
 }
 
+header{
+    position: sticky;
+    top:0;
+}
+
 .title{
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -94,7 +99,7 @@ a{
     text-align: justify;
     color: white;
     
-    background-color: rgba(151, 91, 2, 0.8);
+    background-color: rgba(151, 91, 2, 0.95);
     padding: 15px;
     border-radius: 25px;
 }
@@ -168,10 +173,36 @@ a{
     color:white;
     margin:auto 100px auto 100px;
     word-wrap: break-word;
-    background-color: rgba(151, 91, 2, 0.8);
+    background-color: rgba(151, 91, 2, 0.95);
+    /*background-color: rgba(206, 125, 3, 0.8); */
     padding: 10px;
     border-radius: 25px;
 }
+
+.test{
+    width: 800px;
+    height: 400px;
+    margin-right: 0%;
+}
+
+.eventail{
+  position: relative;
+  height: 300px;
+}
+.eventail.un {
+  transform: rotate(330deg);
+  
+}
+.eventail.deux {
+    transform: rotate(0deg);
+    right: 80px;
+}
+.eventail.trois {
+  transform: rotate(30deg);
+  bottom: 250px;
+  left: 220px;
+}
+
 
 /* --------------footer -------------------*/
 footer{
