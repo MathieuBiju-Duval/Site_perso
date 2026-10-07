@@ -58,6 +58,8 @@ header{
     font-weight: bolder;
 }
 
+
+
 .section {
     margin: 75px 10%;
     display: flex;
@@ -73,6 +75,13 @@ hr {
 
 a{
     text-decoration: none;
+}
+
+.background{
+    background-color: rgb(247, 160, 0);
+    padding: 15px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
 }
 
 /* -------------- Accueil -------------------*/
@@ -168,6 +177,11 @@ a{
     margin-right: 20%;
 }
 
+.img_sml{
+    height: 200px;
+    max-width: 300px;
+}
+
 .left_txt{
     width: 1000px;
     color:white;
@@ -179,11 +193,19 @@ a{
     border-radius: 25px;
 }
 
-.test{
+.heightCheck{
     width: 800px;
     height: 400px;
     margin-right: 0%;
 }
+.right_img_corner{
+    width: 200px;
+    margin-right: 20%;
+    position: relative; 
+    bottom: 150px; 
+    left: 250px;
+}
+
 
 .eventail{
   position: relative;
