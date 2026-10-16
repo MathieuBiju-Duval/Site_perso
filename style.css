@@ -207,22 +207,40 @@ a{
 }
 
 
-.eventail{
+.hand{
+  /* La main s'adapte à son conteneur */
   position: relative;
-  height: 300px;
+  height: 250px;
+  aspect-ratio: 3 / 2;
+  margin-inline: auto;
 }
-.eventail.un {
-  transform: rotate(330deg);
-  
+
+.card {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 5%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px #0003;
+  transform-origin: bottom center;
 }
-.eventail.deux {
-    transform: rotate(0deg);
-    right: 80px;
+
+.card-left {
+  left: 0;
+  transform: rotate(-15deg);
+  z-index: 1;
 }
-.eventail.trois {
-  transform: rotate(30deg);
-  bottom: 250px;
-  left: 220px;
+
+.card-middle {
+  left: 24%;
+  transform: rotate(-2deg);
+  z-index: 2;
+}
+
+.card-right {
+  left: 48%;
+  transform: rotate(12deg);
+  z-index: 3;
 }
 
 
